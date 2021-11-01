@@ -8,17 +8,19 @@ The EDA web app is a simple Application desgined for the purpose of Descriptive 
 
 Once you are in the Application you need to upload your input csv file for which you need to perform EDA. If still you don't understand we have provided a example Diabetes dataset, you can see EDA for it just by clicking "Press to use Example Dataset".
 
-# Technologies Used
+## Technologies Used
 
 * Pycharm Is Used For IDE.
 * Streamlit library for Front-end
 * Pandas Profiling Library to perform EDA
 
+## Deplyments
+
+* Streamlit cloud - https://share.streamlit.io/ankit-world/eda-web-application/main/app.py
 
 ## EDA Web App Demo Video
 
 https://user-images.githubusercontent.com/88729680/139719215-c9b19755-a58d-4127-99d0-d480d4866fb3.mp4
-
 
 
 ## Run Locally
