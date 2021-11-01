@@ -21,7 +21,7 @@ with stream.sidebar.header('Upload your csv file'):
 
     stream.sidebar.markdown("""
 
-[Dummy csv file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+[Dummy csv file](https://raw.githubusercontent.com/ankit-world/ML_Hyperparameter-Optimization-APP/main/insurance.csv)
 """)
 
 # Pandas Profiling Report
@@ -55,7 +55,7 @@ else:
         @stream.cache
         def data_load():
             d = pd.read_csv(
-                'https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv')
+                'https://raw.githubusercontent.com/ankit-world/ML_Hyperparameter-Optimization-APP/main/insurance.csv')
             d1 = pd.DataFrame(d)
 
             return d1
